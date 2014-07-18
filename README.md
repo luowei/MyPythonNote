@@ -9,4 +9,4 @@ python基础学习笔记..
 
     *效果截图:*
 
-    ![python package](.doc/a.png)
+    ![python package](./doc/a.png)

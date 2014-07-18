@@ -51,3 +51,9 @@ print list1 # [0, 4, 5, 6]
 print range(4) # [0, 1, 2, 3]
 print range(1,5) # [1, 2, 3, 4]
 
+# list comprehensions
+li = [1,2,3,4,5,6,7,8,9]
+print [v*10 for v in li if v>4] # [50, 60, 70, 80, 90]
+timesten = dict([(v,v*10) for v in li])
+print timesten # {1: 10, 2: 20, 3: 30, 4: 40, 5: 50, 6: 60, 7: 70, 8: 80, 9: 90}
+
